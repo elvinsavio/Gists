@@ -1,12 +1,17 @@
 baseURL = 'https://example.org/'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+title = 'Gists'
 theme = 'hugo-book'
-
-
 
 enableGitInfo = true
 
 
+[markup.goldmark.renderer]
+  unsafe = true
+
 [params]
-  BookTheme = 'dark'
+    BookTheme = 'dark'
+
+    BookSection = 'docs'
+
+    BookDateFormat = 'January 2, 2006'
